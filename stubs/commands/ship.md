@@ -30,7 +30,15 @@ Commit changes, push to remote, create pull request.
 
 3. **Quality**
    - Run `vendor/bin/pint --dirty`
-   - Run `php artisan test`
+   - **Use Task tool with `pest` sub-agent** to run tests (saves context space):
+     ```
+     Run `php artisan test`. Return ONLY a brief summary:
+     - Pass/Fail status
+     - Test count (e.g., "1224 passed, 0 failed")
+     - Duration
+     - If any tests failed: list ONLY the failing test names (not full output)
+     Do NOT include the full test output.
+     ```
    - **On failure**: ABORT. Override requires explicit "ship anyway"
 
 4. **Commit**
