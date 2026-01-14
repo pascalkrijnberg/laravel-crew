@@ -33,8 +33,7 @@ class AltitudeServiceProvider extends ServiceProvider
     {
         Event::listen(CommandFinished::class, function (CommandFinished $event) {
             if (in_array($event->command, ['boost:install', 'boost:update'])) {
-                // Note: removed --force to preserve local customizations
-                Artisan::call('altitude:sync', ['--quiet' => true]);
+                Artisan::call('altitude:sync', ['--force' => true, '--quiet' => true]);
             }
         });
     }
