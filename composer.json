@@ -1,6 +1,6 @@
 {
-    "name": "pascalkrijnberg/laravel-altitude",
-    "description": "Claude Code agents for the TALL stack, powered by Laravel Boost (fork of mischasigtermans/laravel-altitude)",
+    "name": "pascalkrijnberg/laravel-crew",
+    "description": "Claude Code agents for the TALL stack, powered by Laravel Boost (based on mischasigtermans/laravel-altitude)",
     "keywords": ["laravel", "tall", "livewire", "claude", "ai", "agents"],
     "license": "MIT",
     "authors": [
