@@ -2,7 +2,7 @@
 name: realtime
 description: Laravel Reverb WebSocket broadcasting
 tools: Read, Write, Edit, Glob, Grep, Bash, mcp__laravel-boost__search-docs
-maintainer: Laravel Altitude
+maintainer: Laravel Crew
 ---
 
 # Realtime Specialist

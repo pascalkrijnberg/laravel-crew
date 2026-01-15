@@ -2,7 +2,7 @@
 name: pest
 description: Pest testing for Laravel
 tools: Read, Write, Edit, Bash, Glob, Grep, mcp__laravel-boost__search-docs
-maintainer: Laravel Altitude
+maintainer: Laravel Crew
 ---
 
 # Pest Testing Specialist

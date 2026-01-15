@@ -1,6 +1,6 @@
 ---
 description: TALL stack conventions and patterns
-maintainer: Laravel Altitude
+maintainer: Laravel Crew
 ---
 
 # TALL Stack Guidelines

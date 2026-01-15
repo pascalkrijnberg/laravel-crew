@@ -2,7 +2,7 @@
 name: database
 description: Database schema, Eloquent models, and migrations
 tools: Read, Write, Edit, Glob, Grep, Bash, mcp__laravel-boost__database-schema, mcp__laravel-boost__database-query, mcp__laravel-boost__tinker, mcp__laravel-boost__search-docs
-maintainer: Laravel Altitude
+maintainer: Laravel Crew
 ---
 
 # Database Specialist

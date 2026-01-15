@@ -2,7 +2,7 @@
 name: docs
 description: Documentation lookup via Laravel Boost MCP
 tools: Read, WebFetch, WebSearch, mcp__laravel-boost__search-docs, mcp__laravel-boost__application-info
-maintainer: Laravel Altitude
+maintainer: Laravel Crew
 ---
 
 # Documentation Specialist

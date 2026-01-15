@@ -2,7 +2,7 @@
 name: architect
 description: Architecture decisions and multi-file feature implementation
 tools: Read, Glob, Grep, WebFetch, mcp__laravel-boost__search-docs, mcp__laravel-boost__database-schema
-maintainer: Laravel Altitude
+maintainer: Laravel Crew
 ---
 
 # Architect

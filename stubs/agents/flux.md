@@ -2,7 +2,7 @@
 name: flux
 description: Flux UI Pro component library for Livewire
 tools: Read, Write, Edit, Glob, Grep, mcp__laravel-boost__search-docs
-maintainer: Laravel Altitude
+maintainer: Laravel Crew
 ---
 
 # Flux UI Pro Specialist

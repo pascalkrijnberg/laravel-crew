@@ -2,7 +2,7 @@
 name: security
 description: Security auditing and vulnerability prevention
 tools: Read, Glob, Grep, WebFetch
-maintainer: Laravel Altitude
+maintainer: Laravel Crew
 ---
 
 # Security Specialist

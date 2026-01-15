@@ -1,6 +1,6 @@
 ---
 description: Format code with Laravel Pint
-maintainer: Laravel Altitude
+maintainer: Laravel Crew
 ---
 
 # Pint - Format Code

@@ -1,6 +1,6 @@
 {
     "name": "pascalkrijnberg/laravel-crew",
-    "description": "Claude Code agents for the TALL stack, powered by Laravel Boost (based on mischasigtermans/laravel-altitude)",
+    "description": "Claude Code agents for the TALL stack, powered by Laravel Boost",
     "keywords": ["laravel", "tall", "livewire", "claude", "ai", "agents"],
     "license": "MIT",
     "authors": [
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Altitude\\": "src/"
+            "Crew\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Altitude\\Tests\\": "tests/"
+            "Crew\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -48,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Altitude\\AltitudeServiceProvider"
+                "Crew\\CrewServiceProvider"
             ]
         }
     },

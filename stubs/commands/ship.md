@@ -1,6 +1,6 @@
 ---
 description: Commit changes, push, and create PR
-maintainer: Laravel Altitude
+maintainer: Laravel Crew
 ---
 
 # Ship - Commit, Push, and Create PR

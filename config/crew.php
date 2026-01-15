@@ -12,7 +12,7 @@ return [
     |
     */
 
-    'auto_sync' => env('ALTITUDE_AUTO_SYNC', true),
+    'auto_sync' => env('CREW_AUTO_SYNC', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -43,7 +43,7 @@ return [
     */
 
     'commands' => [
-        // Package-specific commands can be added here
+        'livewire/livewire' => ['upgrade-livewire'],
     ],
 
     /*

@@ -1,6 +1,6 @@
 ---
 description: Debug current issue using logs and errors
-maintainer: Laravel Altitude
+maintainer: Laravel Crew
 ---
 
 # Debug - Investigate Errors

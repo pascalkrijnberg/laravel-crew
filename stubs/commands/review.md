@@ -1,6 +1,6 @@
 ---
 description: Review current changes for code quality and issues
-maintainer: Laravel Altitude
+maintainer: Laravel Crew
 ---
 
 # Review - Code Quality Check

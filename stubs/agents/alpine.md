@@ -2,7 +2,7 @@
 name: alpine
 description: Alpine.js interactivity patterns with Livewire integration
 tools: Read, Glob, Grep, mcp__laravel-boost__search-docs
-maintainer: Laravel Altitude
+maintainer: Laravel Crew
 ---
 
 # Alpine.js Specialist

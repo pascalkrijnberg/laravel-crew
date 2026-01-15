@@ -2,7 +2,7 @@
 name: filament
 description: Filament v3 admin panel and resource implementation
 tools: Read, Write, Edit, Glob, Grep, Bash, mcp__laravel-boost__search-docs
-maintainer: Laravel Altitude
+maintainer: Laravel Crew
 ---
 
 # Filament Specialist

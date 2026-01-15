@@ -6,8 +6,58 @@ A collection of Claude Code agents for the TALL stack, powered by Laravel Boost.
 
 ## Installation
 
+### From Packagist
+
 ```bash
 composer require pascalkrijnberg/laravel-crew --dev
+```
+
+### From GitHub (before Packagist release)
+
+Add to your `composer.json`:
+
+```json
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pascalkrijnberg/laravel-crew"
+        }
+    ],
+    "require-dev": {
+        "pascalkrijnberg/laravel-crew": "dev-main"
+    }
+}
+```
+
+Then run:
+
+```bash
+composer update pascalkrijnberg/laravel-crew
+```
+
+### From local path (for development)
+
+Add to your `composer.json`:
+
+```json
+{
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/path/to/laravel-crew"
+        }
+    ],
+    "require-dev": {
+        "pascalkrijnberg/laravel-crew": "@dev"
+    }
+}
+```
+
+Then run:
+
+```bash
+composer update pascalkrijnberg/laravel-crew
 ```
 
 ## Usage
@@ -15,8 +65,8 @@ composer require pascalkrijnberg/laravel-crew --dev
 Agents are automatically synced when `boost:update` runs. You can also manually sync:
 
 ```bash
-php artisan altitude:sync         # Sync new agents only
-php artisan altitude:sync --force # Overwrite all agents
+php artisan crew:sync         # Sync new agents only
+php artisan crew:sync --force # Overwrite all agents
 ```
 
 ## Credits

@@ -1,6 +1,6 @@
 ---
 description: Resume work after a break - get up to speed on current state
-maintainer: Laravel Altitude
+maintainer: Laravel Crew
 ---
 
 # Catchup - Resume After Break

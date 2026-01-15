@@ -1,13 +1,13 @@
 <?php
 
-namespace Altitude\Commands;
+namespace Crew\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 
-class SyncCommand extends Command
+class   SyncCommand extends Command
 {
-    protected $signature = 'altitude:sync
+    protected $signature = 'crew:sync
                             {--force : Overwrite existing files}';
 
     protected $description = 'Sync TALL stack agents based on installed packages';
@@ -30,7 +30,7 @@ class SyncCommand extends Command
             }
 
             $this->newLine();
-            $this->components->info('Altitude synced.');
+            $this->components->info('Crew synced.');
         }
     }
 
@@ -47,7 +47,7 @@ class SyncCommand extends Command
         $installed = $this->installedPackages();
         $published = [];
 
-        foreach (config('altitude.agents') as $package => $agents) {
+        foreach (config('crew.agents') as $package => $agents) {
             if (in_array($package, $installed)) {
                 foreach ($agents as $agent) {
                     if ($this->publish("agents/{$agent}.md", ".claude/agents/{$agent}.md")) {
@@ -57,7 +57,7 @@ class SyncCommand extends Command
             }
         }
 
-        foreach (config('altitude.always') as $agent) {
+        foreach (config('crew.always') as $agent) {
             if ($this->publish("agents/{$agent}.md", ".claude/agents/{$agent}.md")) {
                 $published[] = $agent;
             }
@@ -71,7 +71,7 @@ class SyncCommand extends Command
         $installed = $this->installedPackages();
         $published = [];
 
-        foreach (config('altitude.commands') as $package => $commands) {
+        foreach (config('crew.commands') as $package => $commands) {
             if (in_array($package, $installed)) {
                 foreach ($commands as $command) {
                     if ($this->publish("commands/{$command}.md", ".claude/commands/{$command}.md")) {
@@ -81,7 +81,7 @@ class SyncCommand extends Command
             }
         }
 
-        foreach (config('altitude.always_commands', []) as $command) {
+        foreach (config('crew.always_commands', []) as $command) {
             if ($this->publish("commands/{$command}.md", ".claude/commands/{$command}.md")) {
                 $published[] = $command;
             }
