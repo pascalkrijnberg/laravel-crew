@@ -32,26 +32,8 @@ composer update pascalkrijnberg/laravel-crew
 
 ### From local path (for development)
 
-Add to your `composer.json`:
-
-```json
-{
-    "repositories": [
-        {
-            "type": "path",
-            "url": "/path/to/laravel-crew"
-        }
-    ],
-    "require-dev": {
-        "pascalkrijnberg/laravel-crew": "@dev"
-    }
-}
-```
-
-Then run:
-
 ```bash
-composer update pascalkrijnberg/laravel-crew
+composer config repositories.laravel-crew path /path/to/laravel-crew && composer require pascalkrijnberg/laravel-crew:@dev --dev
 ```
 
 ## Usage
