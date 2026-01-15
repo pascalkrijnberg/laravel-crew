@@ -6,13 +6,7 @@ A collection of Claude Code agents for the TALL stack, powered by Laravel Boost.
 
 ## Installation
 
-### From Packagist
-
-```bash
-composer require pascalkrijnberg/laravel-crew --dev
-```
-
-### From GitHub (before Packagist release)
+### From GitHub
 
 Add to your `composer.json`:
 
